@@ -27,7 +27,7 @@ public class SecurityConfig {
     public CorsFilter corsFilter() {
         CorsConfigurationSource configurationSource = request -> {
             CorsConfiguration configuration = new CorsConfiguration();
-            configuration.setAllowedOrigins(List.of("http://localhost:3000", "https://hjcartwright.*"));
+            configuration.setAllowedOrigins(List.of("http://localhost:3000", "https://www.hjcartwright.com/"));
             configuration.setAllowedMethods(List.of("GET"));
             configuration.setAllowedHeaders(List.of("*"));
             configuration.setExposedHeaders(List.of("*"));
