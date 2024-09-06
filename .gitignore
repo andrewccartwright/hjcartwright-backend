@@ -18,6 +18,7 @@
 .settings
 .springBeans
 .vscode
+*.vscode
 /code
 MANIFEST.MF
 _site/
@@ -41,3 +42,4 @@ secrets.yml
 .sts4-cache
 .git-hooks/
 node_modules
+target/
